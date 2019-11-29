@@ -1,0 +1,18 @@
+header{
+	margin-bottom: 50px;
+	margin-top: 75px;
+}
+
+
+/*todas las paginas deben tener el mismo contenedor para que tenga efecto la transaicion entre paginas*/
+.container{
+	transition: all 0.4s ease-in;
+}
+
+.page-enter-active, .page-leave-active {
+	transition: opacity 0.5s;
+}
+
+.page-enter, .page-leave-active{
+	opacity: 0;
+}
